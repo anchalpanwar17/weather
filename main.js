@@ -1,8 +1,4 @@
 
-
-console.log("this is the weather api");
-
-
 let input1 = document.querySelector('.input_search');
 let btn = document.querySelector('button');
 
@@ -10,11 +6,10 @@ const key = '7ce3b3145a000b5a45368dc8532ede19';
 
 
 btn.addEventListener("click", (e) => {
-    console.log("Button Clicked");
     e.preventDefault();
     let city = input1.value;
     getweather(city);
-    
+
     // document.body.style.backgroundImage = `url('https://source.unsplash.com/random/1920x1080/?${city}')`;
 
 });
@@ -84,14 +79,14 @@ const getweather = async (city) => {
 
 
 
-        console.log(data);
-        console.log("city : " + name + "\n"
-            + "temperature : " + temp + "\n"
-            + "description : " + description + "\n"
-            + "icon : " + icon + "\n"
-            + "pressure : " + pressure + "\n"
-            + "humidity : " + humidity + "\n"
-            + "Wind Speed : " + speed + "\n");
+        // console.log(data);
+        // console.log("city : " + name + "\n"
+        //     + "temperature : " + temp + "\n"
+        //     + "description : " + description + "\n"
+        //     + "icon : " + icon + "\n"
+        //     + "pressure : " + pressure + "\n"
+        //     + "humidity : " + humidity + "\n"
+        //     + "Wind Speed : " + speed + "\n");
     }
     catch (error) {
         alert("City not found");
