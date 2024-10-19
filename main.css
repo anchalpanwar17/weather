@@ -1,0 +1,87 @@
+
+/* body{
+    background: #bccad6;
+    
+} */
+.container {
+    /* border: 2px solid white; */
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    background: #9ea7e9d0;
+    
+    
+    background: linear-gradient(180deg,rgb(9, 9, 9) 48%,#042dc0);
+    opacity: 0.9;
+    color: white;
+    padding: 20px;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+.search {
+    /* border: 2px solid white; */
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.input_search {
+    border: none;
+    width: 80%;
+    background: #11121cd0;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+    /* padding: 5px; */
+}
+
+button {
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.temp {
+    /* border: 2px solid gray; */
+    margin: 5px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+span{
+    display: flex;
+    align-items: center;
+}
+
+
+.card-body {
+    font-size: xx-small;
+    padding: 2px;
+    border-radius: 0px;
+}
+
+
+
+.row1, .row2, .row3, .row4 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    /* padding: 5px; */
+    content: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 2px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    background: #000000d0;
+    /* background: linear-gradient(180deg,rgb(9, 9, 9) 48%,#042dc0); */
+    opacity: 0.9;
+    color: white;
+}
+
+
